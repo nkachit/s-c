@@ -71,7 +71,7 @@ footer{
     color: var(--destaque);
 }
 
-.cartao:hover .conteudo-cartao{
+.cartao.active .conteudo-cartao{
   transform: rotateY(180deg);
 }
 
@@ -87,5 +87,5 @@ footer{
     transform: rotateY(180deg);
     background-color: var(--cartao-verso);
     border: 2px solid var(--destaque);
-    
+
 }
