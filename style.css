@@ -40,6 +40,8 @@ footer{
     text-align: center;
     height: 100%;
     border-radius: 15px;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
 }
 
 .conteudo-cartao h3 {
@@ -66,4 +68,8 @@ footer{
 .resposta-cartao {
     font-weight: 700;
     color: var(--destaque);
+}
+
+.cartao:hover .conteudo-cartao{
+  transform: rotateY(180deg);
 }
