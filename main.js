@@ -6,7 +6,6 @@ function criaCartao(categoria, pergunta, resposta){
 
     <div class="conteudo-cartao">
     <h3>${categoria}</h3>
-    </div>
 
     <div class="pergunta-cartao">
         <p>${pergunta}</p>
