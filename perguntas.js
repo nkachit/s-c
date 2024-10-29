@@ -76,5 +76,5 @@ criaCartao('Geografia',
 
 
 criaCartao('Biologia',
-    'Qual é a função das mitocôndrias?',
+    '21. Qual é a função das mitocôndrias?',
     'Produzir energia (ATP) através da respiração celular.')
